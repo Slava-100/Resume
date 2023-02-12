@@ -1,15 +1,211 @@
-.left-table{
-    background-color: darkcyan;
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*.main{
+    position: relative;
+}*/
+
+.main{
+    display: grid;
+    grid-template-columns: 200px 500px;
+    margin: auto;
+    max-width: 700px;
+    border: 2px solid black;
+}
+hr{
+    width: 160px;
+    border: 1px solid black;
+    margin-left: Opx;
+    display: block;
+}
+
+.hr{
+}
+
+.left-table {
+    background-color: rgb(68, 205, 220);
+    position: relative;
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+.image {
     position: relative;
 }
 
-.left-table img{
+.left-table img {
     width: 200px;
-    position: absolute;
+    display: block;
 }
 
 
-.Name-LastName{
+.Name-LastName {
     position: absolute;
+    background-color: bisque;
+    opacity: 0.7;
+    width: 200px;
+    bottom: 0;
+    text-align: center;
+    height: 50px;
 }
 
+.p-Name-LastName{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#Skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-type {
+    height: 25px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    font-size: 12px;
+}
+
+.Skills-type{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 20px;
+}
+
+.p-heading {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: black;
+}
+
+.Icon img {
+    width: 10px;
+}
+
+.Icon {
+    width: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Contact-subtype {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#Telephone {
+    animation: phone .9s ease-in-out infinite;
+}
+
+@keyframes phone {
+
+    0%,
+    100% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(21deg);
+    }
+}
+
+.Education-subtype{
+    font-size: 12px;
+}
+
+.Heading {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.Indicator {
+    width: 100px; 
+    height: 6px;
+    background-color: darkgray;
+    border-radius: 100px/80px;
+    border: 1.5px solid black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Text-skills-block{
+    width: 50px;
+    height: 20px;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.Block-indicator{
+    width: 150px; 
+    height: 20px;
+    text-align: center;
+}
+
+.Indicator-small{
+    background-color: chartreuse;
+    height: 6px;
+    border-radius: 100px/80px;
+}
+
+
+#C{
+    width: 50%;
+}
+
+#C-C{
+    width: 30%;
+}
+
+#SQL{
+    width: 50%;
+}
+
+#OOP{
+    width: 100%;
+}
+
+#HTML{
+    width: 60%;
+}
+
+#Git{
+    width: 90%;
+}
+
+#Unit-tests{
+    width: 50%;
+}
+
+#English{
+    width: 40%;
+}
+
+.right-table{
+   background-color: rgb(65, 116, 136);
+}
+
+#aboutme{
+    margin-top: 60px;
+}
+
+.Heading-right{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.Heading-right-subtype{
+    margin-top: 10px;
+    width: 450px;
+}
+
+.p-Heading-right{
+    height: 20px;
+}

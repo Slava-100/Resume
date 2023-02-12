@@ -1,20 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Резюме</title>
 </head>
-<body>
-    <div class = "main">    
-        <div class = "left-table">
-            <img src="./Святослав Стрельников.jpg" alt="Стрельников Святослав">
-            <div class = "Name-LastName"> <p> Strel</p></div>
 
+<body>
+    <div class="main">
+        <div class="left-table">
+            <div class="image">
+                <img src="./Стрельников Святослав.jpg" alt="Стрельников Святослав">
+                <div class="Name-LastName">
+                    <p class="p-Name-LastName">Стрельников Святослав</p>
+                </div>
+            </div>
+
+            <div class="Heading" id="Contact">
+                <p class="p-heading"><b>КОНТАКТЫ</b></p>
+                <hr>
+                <div class="Contact-type">
+                    <div class="Icon"><img src="./Telephone.png" alt="Telephone" id="Telephone"></div>
+                    <div class="Contact-subtype">8-800-555-35-35</div>
+                </div>
+                <div class="Contact-type">
+                    <div class="Icon"><img src="./Email.png" alt="Email"></div>
+                    <div class="Contact-subtype">email@email.com</div>
+                </div>
+                <div class="Contact-type">
+                    <div class="Icon"><img src="./Telegram.png" alt="Telegram"></div>
+                    <div class="Contact-subtype">https://t.me/name</div>
+                </div>
+                <div class="Contact-type">
+                    <div class="Icon"><img src="./Address.png" alt="Address"></div>
+                    <div class="Contact-subtype">Россия, Москва</div>
+                </div>
+            </div>
+            <div class="Heading">
+                <p class="p-heading"><b>ОБРАЗОВАНИЕ</b></p>
+                <div class="Education-subtype"><u>Высшее: <br> </u><small>2019/2025 МГТУ им.Баумана</small> <br>
+                    <u>Специальность:</u>
+                    <small><br>Информационная безопасность</small>
+                </div>
+            </div>
+            <div class="Heading" id="Skills">
+                <p class="p-heading"><b>НАВЫКИ</b></p>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">
+                        <div>C#</div>
+                    </div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="C"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">C/C++</div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="C-C"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">SQL</div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="SQL"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">OOP</div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="OOP"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">HTML/CSS</div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="HTML"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">Git</div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="Git"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">Unit Tests</div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="Unit-tests"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Skills-type">
+                    <div class="Text-skills-block">English</div>
+                    <div class="Block-indicator">
+                        <div class="Indicator">
+                            <div class="Indicator-small" id="English"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class = "right-table"></div>
+        <div class="right-table">
+            <div class="Heading-right" id="aboutme">
+                <div class="p-Heading-right">
+                    <p><b>О CЕБЕ</b></p>
+                </div>
+                <div class="Heading-right-subtype">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
+                    veritatis perferendis! Saepe
+                    vitae a accusantium repellendus rerum quibusdam impedit iste odio ullam sequi. Aperiam dolorum
+                    delectus nisi fugiat placeat praesentium.</div>
+            </div>
+            <div class="Heading-right">
+                <div class="p-Heading-right">
+                    <p><b>ОПЫТ РАЗРАБОТКИ ПРОЕКТОВ</b></p>
+                </div>
+                <div class="Heading-right-subtype">1) Телеграмм бот (реализован на языке С# с использованием: ООП,
+                    Паттернов проектированя, хранения через файлы, библиотеки telegram для взаимодействия с API)<br>
+                    Ссылка на проект: <a href="https://github.com/Slava-100/TaskManager"
+                    target="_blank">клик</a> </div>
+                <div class="Heading-right-subtype">2) Создание сайта поликлиники (реализован с помощью: Баз данных
+                    T-SQL, Dapper, С#, AutoMapper, MicrosoftSqlSystem, Blazor, HTML/CSS, хранение на удаленном сервере,
+                    переменные окружения)<br> Ссылка на проект: <a href="https://github.com/Slava-100/RecordingSystem"
+                        target="_blank">клик</a> </div>
+                <div class="Heading-right-subtype">3) Различные лабораторные работы написанные на языке С++</div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
