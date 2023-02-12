@@ -1,0 +1,15 @@
+.left-table{
+    background-color: darkcyan;
+    position: relative;
+}
+
+.left-table img{
+    width: 200px;
+    position: absolute;
+}
+
+
+.Name-LastName{
+    position: absolute;
+}
+
