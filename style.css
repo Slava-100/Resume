@@ -13,15 +13,6 @@ body{
     max-width: 700px;
     border: 2px solid black;
 }
-hr{
-    width: 160px;
-    border: 1px solid black;
-    margin-left: Opx;
-    display: block;
-}
-
-.hr{
-}
 
 .left-table {
     background-color: rgb(68, 205, 220);
@@ -81,7 +72,7 @@ hr{
 }
 
 .p-heading {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-size: 14px;
     color: black;
 }
